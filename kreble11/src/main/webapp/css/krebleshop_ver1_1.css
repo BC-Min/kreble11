@@ -1,0 +1,268 @@
+* {
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+ }
+ .clear {
+   position:absolute;
+   left:-9999px;
+   overflow:hidden;
+}
+
+a {
+   text-decoration: none;
+   color:#000;
+}
+ul {
+    list-style: none;
+}
+
+
+
+/* body */
+
+ body{
+   position:relative;
+   background-color: #EEEEEE;}
+
+ /* header */
+
+header {
+    position:fixed;
+    top:0;
+    left:0;
+   width:100%;
+   height:120px;
+   padding-top:70px;
+   background-color: #e6002d;
+}
+header h1 {
+    position:absolute;
+    top:20px;
+    left:50%;
+    height:50px;
+    transform: translateX(-50%);
+}
+header h1:before {
+    content:"";
+    position:absolute;
+    top:0;
+    left:-90px;
+    width:60px;
+    height:40px;
+    background: url(image/logo2.png) no-repeat center/contain;
+}
+header h1 a img {
+    width:130px;
+    height:50px;
+}
+header .top_nav {
+    width:1280px;
+    height:40px;
+    margin:0 auto;
+}
+header .top_nav ul {
+    float:left;
+    width:80%;
+    height:100%;
+
+}
+header .top_nav ul li {
+    text-align:center;
+    float:left;
+    display:block;
+    width:14.28%;
+}
+header .top_nav ul li a{
+    line-height:2.5;
+    color:#fff;
+    font-size:20px;
+}
+header .top_nav form {
+    position:relative;
+    float:right;
+    width:20%;
+    height:50px;
+}
+header .top_nav input[type="search"] {
+    width:100%;
+    height:40px;
+    margin:auto 0;
+}
+header .top_nav .btn_sch{
+    position:absolute;
+    top:0px;
+    right:5px;
+    width:25px;
+    height:40px;
+    background:url(image/search_icon.png) no-repeat center;
+    background-size:25px;
+    border:none;
+    text-indent:-9999px;
+    overflow:hidden;
+}
+
+
+ /* nav */
+
+ nav {
+    display:none;
+    position: fixed;
+    top:120px;
+    left:0;
+    width:100%;
+    height:200px;
+    background-color:#E6002d;
+    border-top:1px solid #981717;
+}
+nav .nav_inner {
+    width:1280px;
+    height:100%;
+    margin:0 auto;
+    border-left:1px solid #981717;
+}
+nav .nav_inner ul {
+    float:left;
+    width:11.42%;
+    height:100%;
+    padding-top:10px;
+    border-right:1px solid #981717;
+}
+nav .nav_inner ul li {
+    text-align:center;
+}
+nav .nav_inner ul li a{
+    color:#fff;
+    line-height: 1.5;
+}
+
+
+
+
+section {
+    margin-top:120px;
+    background-color: #eee;
+    height:1600px;
+}
+section .section_inner {
+    width:1280px;
+    height:100%;
+    margin:0 auto;
+}
+
+
+/* aside*/
+.section_inner aside {
+    width:200px;
+    height:100%;
+    padding-top:20px;
+    padding-left:20px;
+    background-color:#ccc;
+    float: left;
+}
+
+.section_inner aside .aside_wrap {
+    margin-bottom:20px;
+}
+.aside_wrap > a {
+    font-size:20px;
+    font-weight: bold;
+}
+.aside_wrap ul {
+    margin-left:15px;
+}
+.aside_wrap ul li {
+
+}
+.aside_wrap ul li a {
+    line-height:1.5;
+}
+
+#section_artbody > article{
+   padding-left: 12px;
+   width: 1080px;
+   height: 400px;
+   float: left;
+}
+/* 인기급상승  */
+.indmainla{
+   width: 600px;
+   height: 50px;
+   text-align: center;
+   font-size: 23pt;
+   font-weight: bold;
+   float: left;  
+}
+.indmainimg{
+   margin: 0 10px 0 12px;
+   width: 600px;
+   height: 350px;
+   border: 1px solid;
+   float: left;
+}
+/*공지*/
+#section_artbody td{
+   padding-left: 10px;
+   width: 470px;
+   height: 64px;
+}
+
+/*유니폼,레프리킷등 소분류타이틀*/
+article > .indsutit{
+   padding-left: 30px;
+   width: 1080px;
+   height: 40px;
+   font-size: 18pt;
+   font-weight: bold;
+}
+
+.index_prd_unit{
+   width: 1080px;
+   margin: 0 auto;
+}
+
+.index_unit_div{
+   margin: 12px;
+   width: 245px;
+   height: 330px;
+   float: left;
+}
+/*상품이미지/설명*/
+#section_artbody .indsuimg{
+   width: 240px;
+   height: 200px;
+   border: 1px solid;
+}
+
+#section_artbody .indsuinfo{
+   width: 240px;
+   height: 100px;
+   border: 1px solid;
+}
+
+
+/* footer */
+ footer {
+    background-color:#333;
+    height:150px;
+ }
+ footer .footer_inner {
+    width:1280px;
+    height:100%;
+    margin:0 auto;
+    padding-top:20px;
+ }
+ footer .footer_inner h2 {
+    width:130px;
+    height:50px;
+ }
+ footer .footer_inner h2 a{
+
+ }
+ footer .footer_inner h2 a img {
+    width:130px;
+    height:50px;
+ }
+ footer .footer_inner p {
+    color:#fff;
+ }
